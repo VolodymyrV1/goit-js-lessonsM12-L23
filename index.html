@@ -3,13 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTTP requests</title>
+    <title>M12-L23</title>
+    <script type="module" crossorigin src="/goit-js-lessonsM12-L23/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-lessonsM12-L23/assets/vendor-CWxt7QI6.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-lessonsM12-L23/assets/index-BSx8YuvZ.css">
   </head>
   <body>
-    <ul>
-      <li><a href="01-axios.html">Axios</a></li>
-      <li><a href="02-axios-opts.html">Axios-opts</a></li>        
-      <li><a href="03-practice.html">TheCatAPI practice</a></li>
-    </ul>
+
+
+    <div id="app">
+      <div class="wrapper">
+
+        <h3>POKEMON</h3>
+        <form class="form-inline search-form">
+          <div class="form-group">
+            <input type="text" class="form-control" name="query" />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+        <div class="loader hidden">Loaded....</div>
+        <div class="card-container"></div>
+
+      </div>
+    </div>
+
+
+
+
   </body>
 </html>
